@@ -1,0 +1,20 @@
+<table id="entity" >
+    <tr>
+        <th>Entity</th>
+        <th>ODS</th>
+        <th>GPL</th>
+        <th>GBL</th>
+        <th>GRL</th>
+        <th>DET</th>
+        <th>GCK</th>
+    </tr>
+    <tr *ngFor="let entity of entityData">
+       <td>{{ entity.GENREPENT}}</td>
+        <td>{{ entity.ODS }}</td>
+        <td>{{ entity.GPL }}</td>
+        <td>{{ entity.GBL }}</td>
+        <td>{{ entity.GRL }}</td>
+        <td>{{ entity.DET }}</td>
+        <td>{{ entity.GCK }}</td>
+    </tr>
+</table>

@@ -1,0 +1,15 @@
+.topnav {
+ color: white;
+ background-color: brown;
+ height: 20px;
+}
+
+.topnav :hover{
+    color: red;
+}
+
+a {
+    margin-left: 10px;
+    color: white;
+    
+}

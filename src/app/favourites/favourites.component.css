@@ -1,0 +1,17 @@
+li {
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+li :hover{
+    animation: alternate;
+}
+
+button {
+    text-align: bottom;
+    display: inline;
+    border-radius: 10px;
+}

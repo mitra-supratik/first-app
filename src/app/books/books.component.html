@@ -1,0 +1,10 @@
+<div>
+  <button (click)="onSelectedBook()">
+    <img
+      [src]="imagePath"
+      [alt]="selectedBook.name"
+    />
+    <span>{{ selectedBook.name }}</span>
+  </button>
+  <p>Selected book: {{ selectedBook.name }} </p>
+</div>
